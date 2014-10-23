@@ -43,3 +43,7 @@ DownloadManager.from(this).download(mUrl1, mLocalPath1, new DownloadListener() {
 
 ### todo
 * 断点续传 (思路，本次暂停时保存文件同时，保存每个下载子任务的start end状态)
+
+### more reading
+* http://stackoverflow.com/questions/3028306/download-a-file-with-android-and-showing-the-progress-in-a-progressdialog
+
